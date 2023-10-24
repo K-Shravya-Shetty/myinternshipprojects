@@ -81,3 +81,17 @@ header{
   cursor: pointer;
   display: none;
 }
+section{
+  padding:60px 14% 70px;
+}
+.home{
+  position:relative;
+  width:100%;
+  height:100vh;
+  background-image: url(images/img1.jpeg);
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+}
