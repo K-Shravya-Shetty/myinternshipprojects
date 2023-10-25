@@ -142,6 +142,7 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px,auto));
   gap:2.3rem;
+  align-items: center;
 }
 .banner-img{
   overflow: hidden;
@@ -154,4 +155,27 @@ section {
 }
 .banner-img:hover img{
 transform: scale(1.1);
+}
+.center-text h2{
+  text-align:center;
+  font-size: var(--h2-font);
+  font-weight: 800;
+  color: var(--text-color);
+}
+.new-content{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+  gap:2.5rem;
+  align-items: center;
+  margin-top: 4.5rem;
+  text-align: center;
+}
+.row{
+  position: relative;
+  cursor: pointer;
+}
+.row img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
 }
