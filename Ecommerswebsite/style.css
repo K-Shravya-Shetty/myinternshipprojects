@@ -103,7 +103,7 @@ section {
   height: 100vh;
   background-image: url(images/img12.jpeg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -148,10 +148,12 @@ section {
   overflow: hidden;
 }
 .banner-img img{
-  width:100%;
   display:block;
   transition:transform 0.5s;
   cursor:pointer;
+  width: 350px;
+  height:350px;
+  object-fit: cover;
 }
 .banner-img:hover img{
 transform: scale(1.1);
