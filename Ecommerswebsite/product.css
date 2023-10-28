@@ -126,8 +126,8 @@ header .search-box .search-btn:hover{
     padding:100px;
 }
 .container .info h2{
-    font-size: 4em;
-    font-weight: 700;
+    font-size: 3em;
+    font-weight: 500;
     color: var(--text-color);
     margin:10px 0px;
 }
@@ -181,4 +181,46 @@ text-align: justify;
 .info .btn:hover{
     background-color: var(--other-color);
     box-shadow: 0 2px 4px  rgba(0 0 0/10%),0 8px 16px rgba(0 0 0/10%);
+}
+.cart{
+    position:absolute;
+    bottom:50px;
+    left:50px;
+    content:'';
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-color);
+    color:var(--text-color);
+    transition:0.5s;
+    box-shadow: 0 2px 4px  rgba(0 0 0/10%),0 8px 16px rgba(0 0 0/10%);
+}
+.cart:hover{
+    background: var(--main-color);
+}
+.img8x{
+    position: relative;
+    padding:50px;
+}
+.img8x .circle{
+    position:absolute;
+    content: '';
+    top:20px;
+    left:-30px;
+    height:500px;
+    width:500px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    overflow: hidden;
+}
+.img8x img{
+    display:block;
+    transition:transform 0.5s;
+    object-fit: cover;
+    height:600px;
+    width: 500px;
 }
