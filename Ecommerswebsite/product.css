@@ -111,3 +111,13 @@ header .search-box .search-btn:hover{
     background: var(--bg-color);
     box-shadow: 0 2px 4px var(--2nd-color) 0 8px 16px var(--other-color);
 }
+.container{
+    width:95%;
+    height:85%;
+    background: var(--bg-color);
+    margin-top: 60px;
+    border-radius: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
