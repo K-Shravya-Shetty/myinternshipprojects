@@ -121,3 +121,64 @@ header .search-box .search-btn:hover{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.container .info{
+    width:500px;
+    padding:100px;
+}
+.container .info h2{
+    font-size: 4em;
+    font-weight: 700;
+    color: var(--text-color);
+    margin:10px 0px;
+}
+.container .info .rating{
+    display: flex;
+    margin:10px 0;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .info .star .fas{
+    color: gold;
+    font-size: 0.8em;
+}
+.rating span{
+    color: skyblue;
+    font-size: 1.3em;
+    margin-left:10px ;
+}
+.info p{
+font-size:1em;
+text-align: justify;
+}
+.info .count{
+    display: flex;
+    margin: 10px 0;
+}
+.info .count button{
+    height:40px;
+    width:60px;
+    background-color: var(--bg-color);
+    color:var(--text-color);
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    box-shadow: 0 2px 4px  rgba(0 0 0/10%),0 8px 16px rgba(0 0 0/10%);
+}
+.info .btn{
+    height:80px;
+    background:var(--main-color);
+    text-decoration: none;
+    color: var(--text-color);
+    padding:15px 30px;
+    transition:0.5s;
+}
+.info .btn:hover{
+    background-color: var(--other-color);
+    box-shadow: 0 2px 4px  rgba(0 0 0/10%),0 8px 16px rgba(0 0 0/10%);
+}

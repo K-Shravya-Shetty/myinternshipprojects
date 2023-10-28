@@ -40,9 +40,9 @@
             </div>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis veniam natus nisi a labore, eum saepe molestias, error nobis ex in nihil doloribus illo voluptatum. Quis non ratione autem tempora.</p>
             <div class="count">
-                <button ooonclick="dec()">-</button>
+                <button onclick="dec()">-</button>
                 <button id="num"></button>
-                <button ooonclick="dec()">+</button>
+                <button onclick="inc()">+</button>
             </div>
             <a href="#" class="btn">ADD TO CART</a>
         </div>
@@ -50,5 +50,17 @@
             <div class="list"></div>
         </div>
     </section>
+    <script type="text/javascript">
+        var data=0;
+        document.getElementById("num").innerText=data;
+        function dec(){
+            data=data-1;
+            document.getElementById("num").innerText=data;
+        }
+        function inc(){
+            data=data+1;
+            document.getElementById("num").innerText=data;
+        }
+    </script>
 </body>
 </html>
