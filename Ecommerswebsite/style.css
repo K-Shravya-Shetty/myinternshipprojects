@@ -243,15 +243,6 @@ transform: scale(1.1);
   opacity:1;
   background-color: var(--main-color);
 }
-.foot-panel1{
-  background-color:var(--text-color);
-  color: var(--main-color);
-  height:50px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  font-size:15px;
-}
 .footer{
   margin-top: 15px;
 }
