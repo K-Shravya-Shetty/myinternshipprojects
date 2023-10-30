@@ -163,11 +163,33 @@ header.sticky{
     text-align: center;
 }
 .container-box{
-    padding:43px 43px 43px 43px;
+    padding:40px 40px 40px 40px;
     background: var(--other-color);
     border-radius: 3rem;
 }
 .container-box:hover{
     border:2px solid var(--main-color);
     box-shadow: #aa0dff 0px 1px 25px;
+}
+.container-box img{
+    width:100%;
+    max-width:50px ;
+    height:auto;
+}
+.container-box h3{
+    font-size: 21px;
+    font-weight: bold;
+    margin:16px 0;
+}
+.container-box a{
+    color: rgb(237, 21, 201);
+    font-size: var(--p-font);
+    letter-spacing: 1px;
+    transition: all 0.50s ease;
+}
+.container-box a:hover{
+    color: var(--text-color);
+}
+.about{
+    
 }
