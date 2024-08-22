@@ -9,5 +9,5 @@
 - Persistent Storage: The application uses the browser's local storage to save tasks, so they remain even after refreshing the page.
 <hr>
 <h3>Ecommerce Website</h3>
-<p>This is just the front end part of the ecommmerce website in created by using the basics of HTML,CSS which I learnt</p>
+<p>This is just the front end part of the ecommmerce website I created by using the basics of HTML,CSS which I learnt</p>
  
